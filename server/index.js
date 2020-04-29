@@ -1,10 +1,8 @@
-const express = require("express");
-const app = express();
-
-const http = require("http").createServer(app);
+const http = require("http").createServer();
 const port = 3001;
 
 const io = require("socket.io")(http);
+
 http.listen(port, () =>
   console.log(`Example app listening at http://localhost:${port}`)
 );
