@@ -4,6 +4,7 @@ Realized a lot of projects I've been working on lately use the same boiler plate
 
 Created this repository so that I could use a template for those projects instead of having to re-setup a new server and client for new projects.
 
+React frontend, NodeJS backend Socket.IO server
 ## Usage
 
 Client:
